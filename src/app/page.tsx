@@ -85,7 +85,7 @@ export default function Site() {
             <div className="h-full grid md:flex justify-center items-center mb-12">
                 <LargeCard>
                     <p className="mb-2">Airsoft Center 2</p>
-                    <hr className="mb-2" />i was a developer for airsoft center,
+                    <hr className="mb-2" />i am a developer for airsoft center,
                     a game which has 20+ million visits, i joined the
                     development team shortly after i was commisioned to make a
                     gun engine for them, i was tasked with back-end coding
