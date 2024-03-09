@@ -1,5 +1,6 @@
 import { Roboto_Mono } from 'next/font/google'
 import "./global.css"
+import Site from './page'
 
 const robot_mono = Roboto_Mono({
   subsets: ['latin'],
@@ -18,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={robot_mono.className}>
-      <body>{children}</body>
+      <body className='bg-zinc-900'>{Site()}</body>
     </html>
   )
 }
