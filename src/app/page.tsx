@@ -55,7 +55,7 @@ export default function Site() {
                         python too
                     </p>
                     <div className="justify-center flex">
-                        <SocialIcon icon={faDiscord} text="dder01" />
+                        <SocialIcon icon={faDiscord} text="dder0" />
                         <SocialIcon icon={faGithub} text="redd-ok" link="https://github.com/redd-ok"/>
                     </div>
                 </div>
