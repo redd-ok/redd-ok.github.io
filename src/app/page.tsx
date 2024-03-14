@@ -1,3 +1,8 @@
+import { FontawesomeObject, IconProp } from "@fortawesome/fontawesome-svg-core";
+import { faDiscord, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Url } from "next/dist/shared/lib/router/router";
+
 function Card({ children }: React.PropsWithChildren<{}>) {
     return (
         <div className="border-zinc-700 bg-gradient-to-b from-zinc-800 to-zinc-900 shadow-2xl border p-4 w-64 m-3 items-center text-center min-h-52">
@@ -14,6 +19,25 @@ function LargeCard({ children }: React.PropsWithChildren<{}>) {
     );
 }
 
+function SocialIcon({
+    icon,
+    text,
+    link,
+}: {
+    icon: IconProp;
+    text: string;
+    link?: string;
+}) {
+    return (
+        <a className="flex m-1 mr-4" href={link}>
+            <div className="aspect-square w-7">
+                <FontAwesomeIcon className={"w-6 aspect-square"} icon={icon}/>
+            </div>
+            {text}
+        </a>
+    );
+}
+
 export default function Site() {
     return (
         <div className=" text-gray-300 justify-center items-center">
@@ -26,10 +50,14 @@ export default function Site() {
                         i usually develop in roblox, but sometimes make things
                         outside of it too
                     </p>
-                    <p className="mb-3">
+                    <p className="mb-4">
                         i code mostly in lua and typescript, but sometimes
                         python too
                     </p>
+                    <div className="justify-center flex">
+                        <SocialIcon icon={faDiscord} text="dder01" />
+                        <SocialIcon icon={faGithub} text="redd-ok" link="https://github.com/redd-ok"/>
+                    </div>
                 </div>
             </div>
 
@@ -55,8 +83,7 @@ export default function Site() {
                 </Card>
                 <Card>
                     <p className="mb-2">Typescript & Javascript</p>
-                    <hr className="mb-2" />
-                    i have some experience with
+                    <hr className="mb-2" />i have some experience with
                     typescript and javascript, ive made websites and discord
                     bots before using typescript, i am still more experienced in
                     lua however
@@ -71,8 +98,7 @@ export default function Site() {
                 </Card>
                 <Card>
                     <p className="mb-2">Gun Engines for Roblox</p>
-                    <hr className="mb-2" />
-                    i have alot of experience in creating
+                    <hr className="mb-2" />i have alot of experience in creating
                     gun engines, having been commisioned once before for a 20+
                     million visits game, i mostly like creating more tactical
                     gun engines but sometimes ill have todo arcady gun engines
