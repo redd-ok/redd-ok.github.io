@@ -54,6 +54,9 @@ export default function Site() {
                         i code mostly in lua and typescript, but sometimes
                         python too
                     </p>
+                    <p className="mb-4">
+                        mostly interested in tactical shooters
+                    </p>
                     <div className="justify-center flex">
                         <SocialIcon icon={faDiscord} text="dder0" />
                         <SocialIcon icon={faGithub} text="redd-ok" link="https://github.com/redd-ok"/>
