@@ -42,7 +42,7 @@ export default function Site() {
     return (
         <div className=" text-gray-300 justify-center items-center">
             <div className="bg-gradient-to-b from-zinc-800 to-zinc-900 h-screen flex justify-center items-center">
-                <div className="w-96 max-w-full text-center shadow-2xl bg-zinc-900  border border-zinc-700">
+                <div className="w-[32rem] max-w-full text-center shadow-2xl bg-zinc-900  border border-zinc-700">
                     <div className=" mt-3" />
                     <p className="mb-3">hello! i am redd</p>
                     <p className="mb-3">i am a programmer</p>
