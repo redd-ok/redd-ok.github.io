@@ -86,7 +86,7 @@ export default function Site() {
                     <hr className="mb-2" />i have some experience with
                     typescript and javascript, ive made websites and discord
                     bots before using typescript, i am still more experienced in
-                    lua however
+                    lua however, i have been recently working with roblox-ts alongside flamework, and react-lua inside personal projects
                 </Card>
                 <Card>
                     <p className="mb-2">Roblox</p>
