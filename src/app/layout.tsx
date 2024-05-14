@@ -8,8 +8,8 @@ const robot_mono = Roboto_Mono({
 })
 
 export const metadata = {
-  title: 'Portfolio',
-  description: 'xd',
+  title: 'redd\'s portfolio',
+  description: 'i pgoram',
 }
 
 export default function RootLayout({
