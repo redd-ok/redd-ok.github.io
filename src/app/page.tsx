@@ -103,6 +103,10 @@ export default function Site() {
                     million visits game, i mostly like creating more tactical
                     gun engines but sometimes ill have todo arcady gun engines
                 </Card>
+                <Card>
+                    <p className="mb-2">Anti-Cheats</p>
+                    <hr className="mb-2" />i am some-what decent at developing and bypassing anti-cheats, i used to exploit on roblox which let me gain alot of knowledge about security in roblox games and general security across all games, i do not exploit on roblox games anymore and i do not plan todo so without explicit permission
+                </Card>
             </div>
 
             <p className="relative text-center mb-2">Projects</p>
