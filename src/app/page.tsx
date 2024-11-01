@@ -119,7 +119,7 @@ export default function Site() {
                     <p className="scale-90 text-gray-400">
                         4+ years in lua/luau
                     </p>
-                    <p className="scale-90 text-gray-400">
+                    <p className="scale-90 text-gray-400 mb-1">
                         2+ years in
                         typescript/javascript
                     </p>
