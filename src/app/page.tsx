@@ -172,7 +172,11 @@ export default function Site() {
                         />
                     </div>
                 </div>
-                <p className="scale-75 text-gray-500">i know theres not much right now, but im still working on adding more to my portfolio</p>
+                <p className="scale-75 text-gray-500">
+                    i know theres not much right now,
+                    but im still working on adding more
+                    to my portfolio
+                </p>
             </div>
         </div>
     );
