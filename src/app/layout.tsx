@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={robot_mono.className}>
-      <body className='bg-zinc-900'>{Site()}</body>
+      <body className='bg-zinc-900 h-full m-0'>{Site()}</body>
     </html>
   )
 }
