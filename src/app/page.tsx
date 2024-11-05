@@ -101,7 +101,7 @@ function Card({
                 {description}
             </p>
             {links ? (
-                <hr className="border-zinc-400 mt-3 mb-3" />
+                <hr className="border-zinc-400 mt-1 mb-1" />
             ) : undefined}
             {...linkElements}
         </div>
